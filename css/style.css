@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.container {
+  background-color: pink;
+  text-align: center;
+  width: 320px;
+  height: 500px;
+
+
+}
+
+.name {
+  text-align: center;
+  padding: 20ox
+}
+
+div>img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+
+}
+
+.message{
+  background-color: yellow;
+  display: grid;
+  text-align: right;
+}
